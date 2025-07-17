@@ -179,9 +179,7 @@ export default function Home() {
             <div className="bg-gray-800/50 backdrop-blur-xl border border-gray-700/50 rounded-2xl p-8 shadow-2xl max-w-md w-full mx-4">
               <div className="text-center mb-8">
                 {/* Logo */}
-                <div className="mb-6">
-                  <img src="public/erasebg-transformed.png" alt="JS Labs Logo" className="mx-auto h-20 w-auto" />
-                </div>
+               
 
                 <div
                   className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 transition-all duration-500 ${
@@ -293,9 +291,7 @@ export default function Home() {
           {/* Header */}
           <div className="text-center" style={animations.slideDown}>
             {/* Logo */}
-            <div className="mb-8">
-              <img src="public/erasebg-transformed.png" alt="JS Labs Logo" className="mx-auto h-24 w-auto" />
-            </div>
+           
 
             <h1
               className="text-6xl font-bold mb-4"
