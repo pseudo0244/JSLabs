@@ -344,6 +344,23 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div
+  onClick={() => navigate("/billing")}
+  className="group relative bg-gradient-to-br from-blue-600/20 to-blue-800/20 backdrop-blur-xl border border-blue-500/30 rounded-2xl p-8 cursor-pointer transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
+>
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+  <div className="relative z-10">
+    <h3 className="text-2xl font-bold text-white mb-3">Billing</h3>
+    <p className="text-gray-400 mb-4">
+      Generate invoices, apply discounts, and manage lab test billing
+    </p>
+    <div className="flex items-center text-blue-400 group-hover:translate-x-2 transition-transform duration-300">
+      <span className="mr-2">Get Started</span>
+      <ArrowRightIcon className="w-4 h-4" />
+    </div>
+  </div>
+</div>
+
           </div>
 
           {/* Footer */}
